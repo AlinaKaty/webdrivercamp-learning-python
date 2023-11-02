@@ -1,7 +1,7 @@
 #!/usr/bin/python3
+
 def keys_number(d):
-    keys = list(d.keys())
-    return len(d)
+    return len(d.keys())
 
 if __name__=="__main__":
     dict_ = {"lib": "requests", 1: "Selenium", "lang": "Python", "frame": "Behave"}
